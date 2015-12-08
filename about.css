@@ -13,12 +13,12 @@ span.red {
   color: red;
 }
 
-header {
+body {
   background-image: url("bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 200px;
+  padding-bottom:200px;
 }
 
 #logo {
@@ -68,8 +68,8 @@ nav ul li a.selected {
 }
 
 .container {
-  max-width: 800px;
-  margin: -100px auto 0;
+  max-width: 500px;
+  margin: -100x auto 0;
   background-color: #fff;
 }
 
@@ -85,11 +85,12 @@ section h2 {
 
 footer {
   
-  padding: 20px;
-  font-size: 93%;
+  padding: 1px ;
+  font-size: 95%;
   text-align: center;
   background-color: #ccc;
   color: #666;
+  max-width: 500px;
 }
 
 icons {

@@ -5,7 +5,7 @@
 
 body {
   font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
-  background-color: #ddd;
+  background-color: #000000;
   font-size: 5px;
 }
 
@@ -14,11 +14,11 @@ span.red {
 }
 
 body {
-  background-image: url("bg.jpg");
+  background-image: url("back.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 1800px;
 }
 
 #logo {
@@ -64,33 +64,60 @@ nav ul li a {
   font-size: 20px;
 }
 
-.container {
-  max-width: 500px;
-  margin: 0px auto 0;
-  background-color: #fff;
-}
-
 section {
   padding: 5px 5px;
 }
 
 section h2 {
-  padding: 10px 0 20px 0;
-  text-align: center;
-  letter-spacing: 0.05em;
-  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 0.15em;
+  color: #000;
+  font-size: 40px;
+ text-align: center;
 }
 
 section h3{
   font-size: 20px;
   padding: 0px 0 10px 0;
+  text-align: left;
+}
+
+section h4 {
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 0.15em;
+  font-size; 70px
+  color: #000;
+  font-size: 40px;
+
+}
+
+section h5 {
+  color: rgba(0,0,0,0);
 }
 
 footer {
-  
-  padding: 1px;
+  padding: 10px 10 10 10;
   font-size: 93%;
   text-align: center;
   background-color: #ccc;
   color: #666;
 }
+
+
+.container {
+  max-width: 400px;
+  margin: 10px auto 0 ;
+  background-color: rgba(255,255,255,1);
+  filter:alpha(opacity=50);
+　-moz-opacity: 0.5;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.container_2 {
+  max-width: 1300px;
+  margin: 70px auto 0;  
+  background-color: rgba(255,255,255,0.5);
+  text-align: center;
+}
+
